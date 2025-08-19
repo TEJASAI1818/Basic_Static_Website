@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - RoadMaster Driving School</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <style>
+    .bg-pattern {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cg fill-opacity='0.05'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='15' cy='15' r='3'/%3E%3C/g%3E%3C/svg%3E");
+    }
+  </style>
+</head>
+<body class="bg-gray-50 font-sans bg-pattern">
+  <!-- Navigation -->
+  <nav class="bg-green-700 text-white p-4 shadow-lg fixed w-full z-10 top-0">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="index.html" class="text-2xl font-bold text-green-200 hover:text-green-300 transition duration-300">RoadMaster</a>
+      <div class="space-x-6">
+        <a href="index.html" class="hover:text-green-300 transition duration-300">Home</a>
+        <a href="about.html" class="hover:text-green-300 transition duration-300">About</a>
+        <a href="services.html" class="hover:text-green-300 transition duration-300">Services</a>
+        <a href="contact.html" class="text-green-300 font-semibold border-b-2 border-green-300">Contact</a>
+        <a href="enroll.html" class="bg-green-500 text-white px-5 py-2 rounded-lg hover:bg-green-400 transition duration-300 shadow-md">Enroll Now</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="bg-green-700 text-white py-32 text-center relative overflow-hidden">
+    <div class="container mx-auto relative z-10">
+      <h1 class="text-5xl md:text-6xl font-extrabold mb-4 tracking-tight drop-shadow-lg">Let’s Connect</h1>
+      <p class="text-xl md:text-2xl mb-6 text-green-100 drop-shadow-md">We’re here to help you drive with confidence—reach out today!</p>
+    </div>
+    <div class="absolute inset-0 opacity-30">
+      <svg class="w-full h-full" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="50" cy="50" r="40" fill="none" stroke="white" stroke-width="1"/>
+        <circle cx="20" cy="20" r="15" fill="none" stroke="white" stroke-width="1"/>
+        <circle cx="80" cy="80" r="15" fill="none" stroke="white" stroke-width="1"/>
+        <circle cx="30" cy="70" r="10" fill="none" stroke="white" stroke-width="1"/>
+        <circle cx="70" cy="30" r="10" fill="none" stroke="white" stroke-width="1"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- Contact Details Section -->
+  <section class="py-24 bg-gradient-to-b from-gray-50 to-gray-100">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800 tracking-wide drop-shadow-md">Get in Touch</h2>
+      <div class="max-w-3xl mx-auto bg-white rounded-2xl shadow-2xl p-12 border-t-4 border-green-500 transform hover:scale-[1.02] transition duration-500">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+          <div class="space-y-8">
+            <div class="flex items-center space-x-4">
+              <i class="fas fa-phone-alt text-green-500 text-3xl"></i>
+              <div>
+                <h3 class="text-xl font-semibold text-gray-800">Phone</h3>
+                <p class="text-gray-600 mt-1">+1 (555) 123-4567</p>
+              </div>
+            </div>
+            <div class="flex items-center space-x-4">
+              <i class="fas fa-envelope text-green-500 text-3xl"></i>
+              <div>
+                <h3 class="text-xl font-semibold text-gray-800">Email</h3>
+                <p class="text-gray-600 mt-1">info@roadmasterdriving.com</p>
+              </div>
+            </div>
+            <div class="flex items-start space-x-4">
+              <i class="fas fa-map-marker-alt text-green-500 text-3xl"></i>
+              <div>
+                <h3 class="text-xl font-semibold text-gray-800">Address</h3>
+                <p class="text-gray-600 mt-1">25200 Carlos Bee Blvd, Hayward California 94542 </p>
+              </div>
+            </div>
+            <div class="flex items-center space-x-4">
+              <i class="fas fa-globe text-green-500 text-3xl"></i>
+              <div>
+                <h3 class="text-xl font-semibold text-gray-800">Follow Us</h3>
+                <div class="flex space-x-4 mt-2">
+                  <a href="#" class="text-green-500 hover:text-green-400 transition duration-200 text-2xl"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="text-green-500 hover:text-green-400 transition duration-200 text-2xl"><i class="fab fa-twitter"></i></a>
+                  <a href="#" class="text-green-500 hover:text-green-400 transition duration-200 text-2xl"><i class="fab fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-gray-200 rounded-xl p-6 flex items-center justify-center">
+            <div class="text-center">
+              <i class="fas fa-map-marked-alt text-green-500 text-5xl mb-4"></i>
+              <p class="text-gray-700 font-semibold">Visit Us in Hayward</p>
+              <p class="text-gray-600 text-sm mt-2">Find us right off the main highway—plenty of parking available!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8 relative">
+    <div class="container mx-auto px-4 text-center">
+      <p class="text-gray-300">© 2025 RoadMaster Driving School. All rights reserved.</p>
+      <div class="mt-3 space-x-4">
+        <a href="contact.html" class="text-green-300 hover:text-green-500 transition duration-200">Contact Us</a>
+        <a href="enroll.html" class="text-green-300 hover:text-green-500 transition duration-200">Enroll Now</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
